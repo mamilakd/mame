@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('path_to_your_background_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #28a745;
+    text-decoration: none;
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #28ac0d;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-menu a:hover {
+    color: #28a745;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.box{
+    width: 50%;
+}
+form h2 {
+    margin-bottom: 20px;
+    color: #333;
+
+}
+form label |{
+    text-align: left;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    width: 188px;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background: #218838;
+}
+
+form a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+form img {
+    position: relative;
+    top: 20%;
+    margin: 2px auto;
+    max-width: 140px;
+    border-radius: 50%;
+}

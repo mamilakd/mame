@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('path_to_your_background_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+.navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #28a745;
+    text-decoration: none;
+}
+.navbar-menu {
+    display: flex;
+    gap: 20px;
+}
+.navbar-menu a {
+    text-decoration: none;
+    font-size: 16px;
+    color: green;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.navbar-menu a:hover {
+    color: #28a745;
+}
+form {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.box{
+    width: 50%;
+    height: 50%;
+}
+form h3 {
+    margin-bottom: 0px;
+    color: #333;
+    font-weight: bold;
+}
+form input[type="text"],
+form input[type="first name"],
+form input[type="last name"],
+form input[type="password"],
+form input[type="re-type password"], {
+    width: 100%;
+    padding: 70%;
+    margin-bottom: -100%;
+    border: 10px solid black;
+    border-radius: 50px;
+    height: 75%;
+}
+form img {
+    position: relative;
+    top: 100%;
+    margin: 2px auto;
+    margin-top: 50%;
+    max-width: 160px;
+    border-radius: 50%;
+    float: center;
+    page-break-before: 75%;
+}
+form button {
+    width: 190px;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background: #218838;
+}
+
+form a {
+    text-decoration: none;
+    color: green;
+    font-size: 14px;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
